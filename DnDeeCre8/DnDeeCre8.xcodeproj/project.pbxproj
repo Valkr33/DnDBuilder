@@ -10,11 +10,13 @@
 		38029D4D24635367007772E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38029D4C24635367007772E4 /* AppDelegate.swift */; };
 		38029D4F24635367007772E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38029D4E24635367007772E4 /* SceneDelegate.swift */; };
 		38029D5124635367007772E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38029D5024635367007772E4 /* ViewController.swift */; };
-		38029D5424635367007772E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38029D5224635367007772E4 /* Main.storyboard */; };
+		38029D5424635367007772E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38029D5224635367007772E4 /* Main.storyboard */; settings = {ASSET_TAGS = (1, 2, ); }; };
 		38029D5624635367007772E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38029D5524635367007772E4 /* Assets.xcassets */; };
 		38029D5924635367007772E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38029D5724635367007772E4 /* LaunchScreen.storyboard */; };
 		38029D6424635367007772E4 /* DnDeeCre8Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38029D6324635367007772E4 /* DnDeeCre8Tests.swift */; };
 		38029D6F24635367007772E4 /* DnDeeCre8UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38029D6E24635367007772E4 /* DnDeeCre8UITests.swift */; };
+		38FF6E6024666DC100ADAA1F /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FF6E5F24666DC100ADAA1F /* ThirdViewController.swift */; };
+		38FF6E64246671F000ADAA1F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FF6E63246671F000ADAA1F /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		38029D6A24635367007772E4 /* DnDeeCre8UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DnDeeCre8UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38029D6E24635367007772E4 /* DnDeeCre8UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DnDeeCre8UITests.swift; sourceTree = "<group>"; };
 		38029D7024635367007772E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38FF6E5F24666DC100ADAA1F /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		38FF6E63246671F000ADAA1F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				38029D4E24635367007772E4 /* SceneDelegate.swift */,
 				38029D5024635367007772E4 /* ViewController.swift */,
 				38029D5224635367007772E4 /* Main.storyboard */,
+				38FF6E63246671F000ADAA1F /* SecondViewController.swift */,
+				38FF6E5F24666DC100ADAA1F /* ThirdViewController.swift */,
 				38029D5524635367007772E4 /* Assets.xcassets */,
 				38029D5724635367007772E4 /* LaunchScreen.storyboard */,
 				38029D5A24635367007772E4 /* Info.plist */,
@@ -190,6 +196,10 @@
 		38029D4124635367007772E4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					1,
+					2,
+				);
 				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Valk Mata";
@@ -260,7 +270,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				38029D5124635367007772E4 /* ViewController.swift in Sources */,
+				38FF6E6024666DC100ADAA1F /* ThirdViewController.swift in Sources */,
 				38029D4D24635367007772E4 /* AppDelegate.swift in Sources */,
+				38FF6E64246671F000ADAA1F /* SecondViewController.swift in Sources */,
 				38029D4F24635367007772E4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
